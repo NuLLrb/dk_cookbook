@@ -10,15 +10,22 @@ html {
     color: white;
 }
 
+.grid-title {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
 .title {
     display: grid;
-    width: 100%;
+    width: 50%;
     height: 50px;
     grid-template-columns: repeat(3, 250px);
     grid-template-rows: auto;
-    justify-content: center;
-    align-content: center; 
-    text-align: center;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-content: space-between;
+    align-items: center;
 }
 
 .title a {
