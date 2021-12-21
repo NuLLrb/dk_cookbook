@@ -5,11 +5,43 @@
 }
 
 html {
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Work Sans', sans-serif;
     background-color: black;
     color: white;
 }
 
+.grid {
+    display: grid;
+    width: 50%;
+    grid-template-columns: repeat(2, 50%);
+}
+
+.col {
+    display: grid;
+    background-color: blueviolet;
+    color: blueviolet;
+    border: solid red 2px;
+}
+
+.prep {
+    text-align: center;
+}
+
+.prep-head {
+    font-weight: 700;
+}
+
+.prep-time {
+    font-size: 52px;
+    font-weight: 900;
+}
+
+.minutes {
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+/* 
 a {
     text-decoration: none;
     color: white;
@@ -31,6 +63,6 @@ ul li {
 }
 
 .span2 {
-    width: 50%;
+    width: 85%;
     grid-template-columns: repeat(2, 50%);
 }
