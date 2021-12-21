@@ -26,6 +26,7 @@ html {
     justify-items: center;
     align-content: space-between;
     align-items: center;
+    margin-top: 15px;
 }
 
 .title a {
@@ -39,7 +40,7 @@ html {
   
     box-sizing: border-box;
     width: 100%;
-    height: 25rem;
+    height: 10rem;
   /*
     background: rgba(114, 186, 94, 0.05);
     border: 2px dashed rgba(114, 186, 94, 0.35);*/
