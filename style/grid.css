@@ -112,7 +112,7 @@ ul.recipe-list {
 
 .recipe-list > * {
     display: grid;
-    grid-template-columns: repeat(2, 150px);
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto;
 }
 
