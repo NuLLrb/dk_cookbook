@@ -89,33 +89,34 @@ div.prep {
 /* ----- RECIPE LIST ----- */
 /* ----- RECIPE LIST ----- */
 /* ----- RECIPE LIST ----- */
-
+/*
 .recipe-list > * {
     background: rgba(114, 186, 94, 0.05);
     border: 2px dashed rgba(114, 186, 94, 0.35)
 }
+*/
 
-ul.recipe-list {
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: repeat(2, 1fr);
-  
-    box-sizing: border-box;
-    width: 100%;
-    height: 5rem;
-
-    justify-content: space-evenly;
-    align-content: space-evenly;
-    justify-items: center;
-    align-items: center;
-}
-
-.recipe-list > * {
+div.recipe-con {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto;
+
+    width: 100%;
+    min-width: 25%;
+    max-width: 100%;
+    height: 50px;
+    
+
+    justify-content: space-between;
+    justify-items: center;
+    align-content: space-between;
+    align-items: center;
 }
 
-.icon {
-    float: right;
+    
+    
+
+div.recipe-con > * {
+    text-align: left;
+    padding: 5px;
 }
