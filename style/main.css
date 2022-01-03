@@ -47,8 +47,12 @@ ul li {
     font-family: 'Work Sans', serif;
 }
 
+/* --------INGREDIENTS---------- */
+/* --------INGREDIENTS---------- */
+/* --------INGREDIENTS---------- */
+
 .ingredients-heading p {
-    font-size: 32px;
+    font-size: 40px;
     font-weight: bold;
 
     display: flex;
@@ -78,9 +82,13 @@ ul li {
 
     flex-direction: column;
 
-    font-size: 18px;
+    font-size: 22px;
     text-align: left;
     letter-spacing: 1px;
+}
+
+.ingredients-content p {
+    margin-bottom: 10px;
 }
 
  /*
