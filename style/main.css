@@ -4,7 +4,7 @@
 }
 
 html {
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Share', cursive;
     background-color: black;
     color: white;
 }
@@ -18,22 +18,33 @@ ul li {
     list-style: none;
 }
 
-.main.flex-center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
+
 
 .main {
-    padding: .5rem;
-    height: 300px;
-    box-shadow: 2px 2px 5px black;
-    border-radius: 4px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.flex-container {
+    display: flex;
+
+    height: auto;
+    width: auto;
+
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    
 }
 
 .index-img {
     margin-top: 25px;
+}
+
+.prep p {
+    font-family: 'Work Sans', serif;
 }
 
  /*

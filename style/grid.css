@@ -4,12 +4,6 @@
     padding: 0;
 }
 
-html {
-    font-family: 'Work Sans', sans-serif;
-    background-color: black;
-    color: white;
-}
-
 .grid-title {
     display: grid;
     justify-items: center;
@@ -38,7 +32,7 @@ html {
     width: 300px;
 }
 
-.grid-times {
+.grid-two {
     display: grid;
     grid-template-columns: 100px 100px;
     grid-template-rows: auto;
