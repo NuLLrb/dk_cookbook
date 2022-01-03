@@ -47,6 +47,42 @@ ul li {
     font-family: 'Work Sans', serif;
 }
 
+.ingredients-heading p {
+    font-size: 32px;
+    font-weight: bold;
+
+    display: flex;
+
+    justify-content: center;
+}
+
+.horbar {
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+
+    font-weight: bold;
+}
+
+.ingredients-content {
+
+    width: 100%;
+    height: auto;
+
+    display: grid;
+
+    justify-content: center;
+
+
+
+    flex-direction: column;
+
+    font-size: 18px;
+    text-align: left;
+    letter-spacing: 1px;
+}
+
  /*
 div.recipe-con {
     display: flex;
