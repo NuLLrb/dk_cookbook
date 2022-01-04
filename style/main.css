@@ -54,6 +54,7 @@ ul li {
 
 .icon-y {
     color: #fca311;
+    
 }
 
 .quart-sec-trans {
@@ -82,6 +83,14 @@ ul li {
 
 .hvr-big:hover {
     transform: scale(110%);
+}
+
+.hvr-growroright:hover {
+    transform: scale(150%) rotate(10deg);
+}
+
+.hvr-growroleft:hover {
+    transform: scale(150%) rotate(-10deg);
 }
 
 

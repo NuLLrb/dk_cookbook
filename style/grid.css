@@ -98,6 +98,12 @@ div.prep {
 }
 */
 
+.recipe-con button {
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+}
+
 div.recipe-con {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
