@@ -6,22 +6,30 @@
 
 .grid-title {
     display: grid;
+
     justify-items: center;
     align-items: center;
+
+    margin-bottom: 25px;
 }
 
 .title {
     display: grid;
+
     width: 50%;
     height: 50px;
+
     grid-template-columns: repeat(3, auto);
     grid-template-rows: auto;
+
     justify-content: space-evenly;
     justify-items: center;
     align-content: space-between;
     align-items: center;
+
     margin-top: 15px;
     text-align: center;
+
 }
 
 .title a {
@@ -115,4 +123,8 @@ div.recipe-con > * {
     justify-items: center;
     align-content: space-evenly;
     align-items: center;
+}
+
+.recipe-con {
+    font-size: 24px;
 }

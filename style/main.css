@@ -5,13 +5,14 @@
 
 html {
     font-family: 'Share', cursive;
-    background-color: black;
-    color: white;
+    background-color: #edf6f9;
+    color: #1f271b;
 }
 
 a {
     text-decoration: none;
-    color: white;
+    /*color: white;*/
+    color: #1f271b;
 }
 
 ul li {
@@ -46,6 +47,43 @@ ul li {
 .prep p {
     font-family: 'Work Sans', serif;
 }
+
+/* --------ICONS ICONS---------- */
+/* --------ICONS ICONS---------- */
+/* --------ICONS ICONS---------- */
+
+.icon-y {
+    color: #fca311;
+}
+
+.quart-sec-trans {
+    transition: .25s ease-out;
+}
+
+.half-sec-trans {
+    transition: .5s ease;
+}
+
+.hvr-slide-left:hover {
+    transform: translate(-75%, 0) scale(200%);
+    color: #fca311;
+}
+
+.hvr-color-grow-roleft:hover {
+    color: #fca311;
+    transform: scale(150%) rotate(-15deg);
+    
+}
+
+.hvr-color-grow-roright:hover {
+    color: #fca311;
+    transform: scale(200%) rotate(15deg);
+}
+
+.hvr-big:hover {
+    transform: scale(110%);
+}
+
 
 /* --------INGREDIENTS---------- */
 /* --------INGREDIENTS---------- */
