@@ -102,8 +102,8 @@ ul li {
     background-repeat: no-repeat;
     transition:
       .25s ease-out,
-      background-size 0.3s,
-      background-position 0s 0.3s; /*change after the size immediately*/
+      background-size 0.5s,
+      background-position 0s 0.5s; /*change after the size immediately*/
 }
   
 .hvr-underline-ltr:hover {
