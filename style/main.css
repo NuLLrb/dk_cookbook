@@ -101,15 +101,15 @@ ul li {
     background-size: 0% 2px;
     background-repeat: no-repeat;
     transition:
-      .25s ease-out,
-      background-size 0.5s,
-      background-position 0s 0.5s; /*change after the size immediately*/
+      .25s ease-in-out,
+      background-size 0.15s,
+      background-position 0s 0.15s; /*change after the size immediately*/
 }
   
 .hvr-underline-ltr:hover {
     background-position: 100% 100%; /*OR bottom right*/
     background-size: 100% 2px;
-    transform: scale(110%);
+    letter-spacing: 2px;
 }
 
 /* --------INGREDIENTS---------- */
