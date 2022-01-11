@@ -102,8 +102,8 @@ ul li {
     background-repeat: no-repeat;
     transition:
       .25s ease-in-out,
-      background-size 0.15s,
-      background-position 0s 0.15s; /*change after the size immediately*/
+      background-size 0.25s,
+      background-position 0s 0.25s; /*change after the size immediately*/
 }
   
 .hvr-underline-ltr:hover {
@@ -158,25 +158,61 @@ ul li {
     margin-bottom: 10px;
 }
 
- /*
-div.recipe-con {
+
+/* --------DIRECTIONS---------- */
+/* --------DIRECTIONS---------- */
+/* --------DIRECTIONS---------- */
+
+.directions-content {
     display: flex;
+
+    width: 100%;
+
     justify-content: center;
 }
 
-.recipe-list {
-    width: 50%;
-}
+.directions-heading p {
+    font-size: 40px;
+    font-weight: bold;
 
-.recipe-listing > * {
-    text-align: left; 
-    margin: 10px;
-}
-
-.ingredients {
     display: flex;
+
     justify-content: center;
+
+    margin-top: 10rem;
+}
+
+
+
+.dir-step {
+    display: grid;
+
+    width: 75%;
+
+    grid-template-columns: 10% 80% 10%;
+
+    justify-content: start;
     align-items: center;
-    flex-flow: column nowrap;
 }
 
+.dir-step > * {
+    margin-top: 10px;
+}
+
+.dir-step h2 {
+    display: grid;
+
+    justify-content: start;
+}
+
+.dir-step p {
+    display: grid;
+
+    justify-content: start;
+}
+
+.dir-step a span i {
+    display: grid;
+
+    justify-content: end;
+}
