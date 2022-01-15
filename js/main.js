@@ -5,3 +5,41 @@ function copy_function() {
 
     alert("Copied the recipe's ingredients!")
 }
+
+function icon1() {
+    let icon = document.getElementById('icon1');
+    let step = document.getElementById('step1');
+    toggled = false;
+    icon.addEventListener('click', () => {
+        if (!toggled) {
+            icon.classList.add('fas');
+            icon.classList.remove('far');
+            step.style.opacity = '50%';
+            toggled = true;
+        } else {
+            icon.classList.add('far');
+            icon.classList.remove('fas');
+            step.style.opacity = '100%';
+            toggled = false;
+        }
+    });
+}
+
+function icon2() {
+    let icon = document.getElementById('icon2');
+    let step = document.getElementById('step2');
+    toggled = false;
+    icon.addEventListener('click', () => {
+        if (!toggled) {
+            icon.classList.add('fas');
+            icon.classList.remove('far');
+            step.style.opacity = '50%';
+            toggled = true;
+        } else {
+            icon.classList.add('far');
+            icon.classList.remove('fas');
+            step.style.opacity = '100%';
+            toggled = false;
+        }
+    });
+}

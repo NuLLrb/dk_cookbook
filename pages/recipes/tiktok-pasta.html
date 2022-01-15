@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,18 +10,22 @@
     <link rel="stylesheet" href="../../style/grid.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;400;700;900&display=swap" rel="stylesheet"> 
-    <link href="https://fonts.googleapis.com/css2?family=Share:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;400;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Share:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
     <script src="https://kit.fontawesome.com/dca71efc99.js" crossorigin="anonymous"></script>
-    <script src="../../js/main.js"></script>
-    
+
+
 </head>
+
 <body>
     <div class="grid-title">
         <div class="title">
-            <a class="back-btn icon-ay half-sec-trans hvr-slide-left" href="../recipe_list.html"><i class="fa fa-long-arrow-alt-left"></i></a>
+            <a class="back-btn icon-ay half-sec-trans hvr-slide-left" href="../recipe_list.html"><i
+                    class="fa fa-long-arrow-alt-left"></i></a>
             <h3>TIKTOK PASTA</h3>
-            <a class="home-btn icon-ay half-sec-trans hvr-color-grow-roleft" href="../../index.html"><i class="fas fa-heart"></i></a>
+            <a class="home-btn icon-ay half-sec-trans hvr-color-grow-roleft" href="../../index.html"><i
+                    class="fas fa-heart"></i></a>
         </div>
     </div>
 
@@ -68,31 +73,61 @@
         </span>
 
         <div class="directions-content">
+
             <div class="dir-step">
+
                 <h2>1.</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque, tenetur sint error aliquam perspiciatis facere.</p>
-                <a onclick="copy_function()">
-                    <span class="copy-icon">
-                        <i class="far fa-check-circle"></i>
-                    </span>
-                </a>
+                <p id="step1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque,
+                    tenetur sint error
+                    aliquam
+                    perspiciatis facere.</p>
+                <button onclick="icon1()">
+                    <i id="icon1" class="far fa-check-circle"></i>
+                </button>
+
             </div>
+
         </div>
 
         <div class="directions-content">
             <div class="dir-step">
                 <h2>2.</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet adipisci eaque animi delectus? Reprehenderit a vitae vero deleniti tempore? Quasi nostrum minus sed eaque ab quia soluta ea harum provident ratione, expedita culpa suscipit pariatur illum non voluptatem quibusdam inventore amet adipisci. Nam explicabo quaerat quos recusandae ab quod eveniet.</p>
-                <a onclick="copy_function()">
-                    <span class="copy-icon">
-                        <i class="far fa-check-circle"></i>
-                    </span>
-                </a>
+                <p id="step2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet adipisci eaque animi
+                    delectus?
+                    Reprehenderit a vitae vero deleniti tempore? Quasi nostrum minus sed eaque ab quia soluta ea harum
+                    provident ratione, expedita culpa suscipit pariatur illum non voluptatem quibusdam inventore amet
+                    adipisci. Nam explicabo quaerat quos recusandae ab quod eveniet.</p>
+                <button onclick="icon2()">
+                    <i id="icon2" class="far fa-check-circle"></i>
+                </button>
+            </div>
+        </div>
+
+        <div class="directions-content">
+            <div class="dir-step">
+                <h2>3.</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                <button onclick="icon3()" id="icon3">
+                    <i class="far fa-check-circle"></i>
+                </button>
+            </div>
+        </div>
+
+        <div class="directions-content">
+            <div class="dir-step">
+                <h2>4.</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet pariatur ut, labore incidunt
+                    accusantium quos.</p>
+                <button onclick="icon4()" id="icon4">
+                    <i class="far fa-check-circle"></i>
+                </button>
             </div>
         </div>
 
     </div>
 
+    <script src="../../js/main.js"></script>
     <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
 </body>
+
 </html>
