@@ -231,3 +231,11 @@ ul li {
     justify-content: end;
 }
 
+#step-text {
+    display: inline;
+
+}
+
+.step-icon {
+    cursor: pointer;
+}
