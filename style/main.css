@@ -233,9 +233,8 @@ ul li {
     justify-content: end;
 }
 
-.step-text {
+div.dir-step p .step-text {
     display: inline;
-
 }
 
 .step-icon {
