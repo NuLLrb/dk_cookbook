@@ -233,7 +233,7 @@ ul li {
     justify-content: end;
 }
 
-#step-text {
+.step-text {
     display: inline;
 
 }
